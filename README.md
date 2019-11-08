@@ -15,15 +15,6 @@ $ make build
 $ make shell
 ```
 
-### Environment Variables
-
-```
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=
-AWS_ACCOUNT_ID=
-```
-
 ## Update Docker image
 
 1. Change (or not) `VERSION` in `Makefile`
@@ -39,7 +30,4 @@ Docker image
 The Docker image has the following:
 
 - Alpine
-- [aws-cli](https://github.com/aws/aws-cli)
-- [aws-shell](https://github.com/awslabs/aws-shell)
-- [aws-sam-cli](https://github.com/awslabs/aws-sam-cli)
-- envsubst: quite useful to create file based on a template using env vars
+- ngnix
